@@ -1,0 +1,335 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Halloween Soundtrack_data" version="1.3.0" audacityversion="2.3.0" sel0="28.7317330465" sel1="28.7317330465" vpos="144" h="9.2322819931" zoom="36.7189823981" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Software" value="Lavf57.56.101"/>
+		<tag name="major_brand" value="dash"/>
+		<tag name="minor_version" value="0"/>
+		<tag name="compatible_brands" value="iso6mp41"/>
+	</tags>
+	<wavetrack name="Power Up Sound Effects All Sounds" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.70979592" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="851848">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803fb4.au" len="230493" min="-0.646945" max="0.615888" rms="0.125735"/>
+				</waveblock>
+				<waveblock start="230493">
+					<simpleblockfile filename="e0803136.au" len="262144" min="-0.575425" max="0.631392" rms="0.128671"/>
+				</waveblock>
+				<waveblock start="492637">
+					<simpleblockfile filename="e08037ab.au" len="179605" min="-0.180163" max="0.153449" rms="0.027209"/>
+				</waveblock>
+				<waveblock start="672242">
+					<simpleblockfile filename="e080387f.au" len="179606" min="-0.04393" max="0.017409" rms="0.004039"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Power Up Sound Effects All Sounds" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.70979592" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="851848">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803b86.au" len="230493" min="-0.631689" max="0.617936" rms="0.131317"/>
+				</waveblock>
+				<waveblock start="230493">
+					<simpleblockfile filename="e0803bcc.au" len="262144" min="-0.649508" max="0.727414" rms="0.127992"/>
+				</waveblock>
+				<waveblock start="492637">
+					<simpleblockfile filename="e0803fc8.au" len="179605" min="-0.169915" max="0.144374" rms="0.026416"/>
+				</waveblock>
+				<waveblock start="672242">
+					<simpleblockfile filename="e0803b50.au" len="179606" min="-0.05282" max="0.024874" rms="0.004556"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Mad Scientist Ziggs - Music Theme Cover" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.412538" pan="0.0" colorindex="0">
+		<waveclip offset="-6.86421769" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1610616">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808802.au" len="32157" min="-0.068831" max="0.05473" rms="0.013406"/>
+				</waveblock>
+				<waveblock start="32157">
+					<simpleblockfile filename="e080885d.au" len="203962" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="236119">
+					<simpleblockfile filename="e08088f0.au" len="203962" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="440081">
+					<simpleblockfile filename="e0803631.au" len="203963" min="-0.305748" max="0.3328" rms="0.050408"/>
+				</waveblock>
+				<waveblock start="644044">
+					<simpleblockfile filename="e0808df8.au" len="142388" min="-0.430888" max="0.446604" rms="0.101817"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e08089f1.au" len="262144" min="-0.520934" max="0.588986" rms="0.116792"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0808126.au" len="262144" min="-0.900543" max="0.841108" rms="0.165642"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e080a513.au" len="149948" min="-0.893457" max="0.885769" rms="0.226391"/>
+				</waveblock>
+				<waveblock start="1460668">
+					<simpleblockfile filename="e080a29d.au" len="149948" min="-0.862598" max="0.924343" rms="0.203521"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Mad Scientist Ziggs - Music Theme Cover" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.412538" pan="0.0" colorindex="0">
+		<waveclip offset="-6.86421769" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1610616">
+				<waveblock start="0">
+					<simpleblockfile filename="e08087bf.au" len="32157" min="-0.036742" max="0.031218" rms="0.007216"/>
+				</waveblock>
+				<waveblock start="32157">
+					<simpleblockfile filename="e0808ea2.au" len="203962" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="236119">
+					<simpleblockfile filename="e0808106.au" len="203962" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="440081">
+					<simpleblockfile filename="e0803fd0.au" len="203963" min="-0.355168" max="0.25815" rms="0.045443"/>
+				</waveblock>
+				<waveblock start="644044">
+					<simpleblockfile filename="e0808110.au" len="142388" min="-0.568151" max="0.475453" rms="0.102826"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0808e6c.au" len="262144" min="-0.609822" max="0.618683" rms="0.118116"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0808099.au" len="262144" min="-0.892802" max="0.867469" rms="0.173681"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="e080abf1.au" len="149948" min="-0.919496" max="0.906513" rms="0.25401"/>
+				</waveblock>
+				<waveblock start="1460668">
+					<simpleblockfile filename="e080afb5.au" len="149948" min="-0.902928" max="0.914939" rms="0.225969"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Mad Scientist Ziggs - Music Theme Cover" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="29.28662132" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="201209">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803637.au" len="201209" min="-0.890923" max="0.937575" rms="0.107195"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="-0.99371882" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="43823">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803b0d.au" len="43823" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Mad Scientist Ziggs - Music Theme Cover" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="29.28662132" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="201209">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803dd3.au" len="201209" min="-0.917832" max="0.881816" rms="0.12314"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="-0.99371882" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="43823">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803c2e.au" len="43823" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Mad Science Lab Oscilloscope Wave and Sound Effect Background Loop" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.794328" pan="0.0" colorindex="0">
+		<waveclip offset="15.57020408" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="481940">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803291.au" len="262144" min="-0.37162" max="0.41316" rms="0.044286"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e080adcb.au" len="219796" min="-0.424647" max="0.445766" rms="0.07079"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Mad Science Lab Oscilloscope Wave and Sound Effect Background Loop" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.794328" pan="0.0" colorindex="0">
+		<waveclip offset="15.57020408" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="481940">
+				<waveblock start="0">
+					<simpleblockfile filename="e08038fd.au" len="262144" min="-0.310303" max="0.273487" rms="0.037586"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e080a9e8.au" len="219796" min="-0.303477" max="0.42604" rms="0.060877"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Sound Effect - Lever Pull" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="68864">
+				<waveblock start="0">
+					<simpleblockfile filename="e08032bb.au" len="68864" min="-0.95625" max="0.908275" rms="0.092024"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Sound Effect - Lever Pull" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="68864">
+				<waveblock start="0">
+					<simpleblockfile filename="e08034e2.au" len="68864" min="-1.112745" max="1.171465" rms="0.087992"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Sound 10 Power Outage Effect" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.258925" pan="0.0" colorindex="0">
+		<waveclip offset="30.41603175" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="214272">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803644.au" len="214272" min="-0.993672" max="0.994269" rms="0.200989"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Sound 10 Power Outage Effect" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.258925" pan="0.0" colorindex="0">
+		<waveclip offset="30.41603175" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="214272">
+				<waveblock start="0">
+					<simpleblockfile filename="e08034f5.au" len="214272" min="-0.998042" max="0.997463" rms="0.203455"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Spinning Prize Wheel Sound Effect" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="1.68850340" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="428761">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803e09.au" len="214493" min="-0.30301" max="0.712898" rms="0.06806"/>
+				</waveblock>
+				<waveblock start="214493">
+					<simpleblockfile filename="e08034be.au" len="214268" min="-0.307102" max="0.690732" rms="0.092774"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="14.81521542" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="140">
+				<waveblock start="0">
+					<simpleblockfile filename="e080323b.au" len="140" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="14.81839002" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="86">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803de3.au" len="86" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ASMR Gears Spinning Cog Machine- 1 Hour 4k HD Tingle Sounds For Sleep Relax Study (NO TALKING)" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
+		<waveclip offset="13.98879819" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="650163">
+				<waveblock start="0">
+					<simpleblockfile filename="e08030c6.au" len="262144" min="-0.7608" max="0.830447" rms="0.083827"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e080af02.au" len="194009" min="-0.739011" max="0.924283" rms="0.088873"/>
+				</waveblock>
+				<waveblock start="456153">
+					<simpleblockfile filename="e080af9e.au" len="194010" min="-0.768707" max="0.908844" rms="0.088059"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ASMR Gears Spinning Cog Machine- 1 Hour 4k HD Tingle Sounds For Sleep Relax Study (NO TALKING)" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
+		<waveclip offset="13.98879819" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="650163">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803a85.au" len="262144" min="-0.7608" max="0.830447" rms="0.083829"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e080a937.au" len="194009" min="-0.739011" max="0.924283" rms="0.088873"/>
+				</waveblock>
+				<waveblock start="456153">
+					<simpleblockfile filename="e080a6f2.au" len="194010" min="-0.768707" max="0.908844" rms="0.088059"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Metal Clank Sound Effects All Sounds" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="2.818383" pan="0.0" colorindex="0">
+		<waveclip offset="9.76027211" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="186478">
+				<waveblock start="0">
+					<simpleblockfile filename="e080af2c.au" len="186478" min="-0.624856" max="0.670895" rms="0.042196"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="13.98879819" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="75">
+				<waveblock start="0">
+					<simpleblockfile filename="e080a377.au" len="75" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Metal Clank Sound Effects All Sounds" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="2.818383" pan="0.0" colorindex="0">
+		<waveclip offset="9.76027211" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="186478">
+				<waveblock start="0">
+					<simpleblockfile filename="e080af65.au" len="186478" min="-0.716042" max="0.631025" rms="0.045767"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="13.98879819" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="75">
+				<waveblock start="0">
+					<simpleblockfile filename="e080a2f0.au" len="75" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="sprunk Vending machine sound effect" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="4.466836" pan="0.0" colorindex="0">
+		<waveclip offset="10.64843537" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="240768">
+				<waveblock start="0">
+					<simpleblockfile filename="e080a79f.au" len="240768" min="-0.38898" max="0.370398" rms="0.032001"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="sprunk Vending machine sound effect" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="4.466836" pan="0.0" colorindex="0">
+		<waveclip offset="10.64843537" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="240768">
+				<waveblock start="0">
+					<simpleblockfile filename="e080ab36.au" len="240768" min="-0.38898" max="0.370398" rms="0.032001"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
