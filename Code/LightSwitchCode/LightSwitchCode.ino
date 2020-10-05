@@ -38,16 +38,16 @@ void loop() {
   // Convert the time into a distance
   cm = (duration/2) / 29.1;     // Divide by 29.1 or multiply by 0.0343
   inches = (duration/2) / 74;   // Divide by 74 or multiply by 0.0135
-  Serial.print("test");
+
   if (inches<4 && inches>0){
-      Serial.print("triggering");
+      Serial.println("playSong");
       for(angle = 0; angle < 270; angle++)  
       {                                  
         servo.write(angle);               
         delay(1);              
       } 
      servo.detach();
-     delay(10000);
+     delay(30000);
      
      //bring back to original position
      servo.attach(servoPin); 

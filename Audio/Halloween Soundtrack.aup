@@ -1,12 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Halloween Soundtrack_data" version="1.3.0" audacityversion="2.3.0" sel0="28.7317330465" sel1="28.7317330465" vpos="144" h="9.2322819931" zoom="36.7189823981" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
-	<tags>
-		<tag name="Software" value="Lavf57.56.101"/>
-		<tag name="major_brand" value="dash"/>
-		<tag name="minor_version" value="0"/>
-		<tag name="compatible_brands" value="iso6mp41"/>
-	</tags>
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Halloween Soundtrack_data" version="1.3.0" audacityversion="2.3.0" sel0="0.0000000000" sel1="0.0000000000" vpos="3008" h="0.0000000000" zoom="11.6952900601" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
 	<wavetrack name="Power Up Sound Effects All Sounds" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.70979592" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="851848">
@@ -216,13 +211,13 @@
 		</waveclip>
 	</wavetrack>
 	<wavetrack name="Spinning Prize Wheel Sound Effect" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
-		<waveclip offset="1.68850340" colorindex="0">
+		<waveclip offset="0.81770975" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="428761">
 				<waveblock start="0">
 					<simpleblockfile filename="e0803e09.au" len="214493" min="-0.30301" max="0.712898" rms="0.06806"/>
 				</waveblock>
 				<waveblock start="214493">
-					<simpleblockfile filename="e08034be.au" len="214268" min="-0.307102" max="0.690732" rms="0.092774"/>
+					<simpleblockfile filename="e08031bb.au" len="214268" min="-0.307102" max="0.690732" rms="0.085774"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
@@ -244,33 +239,33 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="ASMR Gears Spinning Cog Machine- 1 Hour 4k HD Tingle Sounds For Sleep Relax Study (NO TALKING)" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
+	<wavetrack name="ASMR Gears Spinning Cog Machine- 1 Hour 4k HD Tingle Sounds For Sleep Relax Study (NO TALKING)" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.412538" pan="0.0" colorindex="0">
 		<waveclip offset="13.98879819" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="650163">
 				<waveblock start="0">
-					<simpleblockfile filename="e08030c6.au" len="262144" min="-0.7608" max="0.830447" rms="0.083827"/>
+					<simpleblockfile filename="e0803362.au" len="262144" min="-0.7608" max="0.830447" rms="0.083436"/>
 				</waveblock>
 				<waveblock start="262144">
-					<simpleblockfile filename="e080af02.au" len="194009" min="-0.739011" max="0.924283" rms="0.088873"/>
+					<simpleblockfile filename="e0803673.au" len="194009" min="-0.611556" max="0.789457" rms="0.063266"/>
 				</waveblock>
 				<waveblock start="456153">
-					<simpleblockfile filename="e080af9e.au" len="194010" min="-0.768707" max="0.908844" rms="0.088059"/>
+					<simpleblockfile filename="e0803096.au" len="194010" min="-0.324198" max="0.2994" rms="0.024095"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="ASMR Gears Spinning Cog Machine- 1 Hour 4k HD Tingle Sounds For Sleep Relax Study (NO TALKING)" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
+	<wavetrack name="ASMR Gears Spinning Cog Machine- 1 Hour 4k HD Tingle Sounds For Sleep Relax Study (NO TALKING)" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.412538" pan="0.0" colorindex="0">
 		<waveclip offset="13.98879819" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="650163">
 				<waveblock start="0">
-					<simpleblockfile filename="e0803a85.au" len="262144" min="-0.7608" max="0.830447" rms="0.083829"/>
+					<simpleblockfile filename="e0803de1.au" len="262144" min="-0.7608" max="0.830447" rms="0.083438"/>
 				</waveblock>
 				<waveblock start="262144">
-					<simpleblockfile filename="e080a937.au" len="194009" min="-0.739011" max="0.924283" rms="0.088873"/>
+					<simpleblockfile filename="e08039c2.au" len="194009" min="-0.611556" max="0.789457" rms="0.063266"/>
 				</waveblock>
 				<waveblock start="456153">
-					<simpleblockfile filename="e080a6f2.au" len="194010" min="-0.768707" max="0.908844" rms="0.088059"/>
+					<simpleblockfile filename="e0803e40.au" len="194010" min="-0.324198" max="0.2994" rms="0.024095"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
@@ -324,6 +319,66 @@
 	</wavetrack>
 	<wavetrack name="sprunk Vending machine sound effect" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="4.466836" pan="0.0" colorindex="0">
 		<waveclip offset="10.64843537" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="240768">
+				<waveblock start="0">
+					<simpleblockfile filename="e080ab36.au" len="240768" min="-0.38898" max="0.370398" rms="0.032001"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Spotlight 2" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="8.46859410" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="111744">
+				<waveblock start="0">
+					<simpleblockfile filename="e08036d7.au" len="111744" min="-1.190957" max="1.365819" rms="0.280056"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Spotlight 2" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="8.46859410" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="111744">
+				<waveblock start="0">
+					<simpleblockfile filename="e08035ac.au" len="111744" min="-1.244519" max="1.257768" rms="0.171348"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Party Blower Sound Effect" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.995262" pan="0.0" colorindex="0">
+		<waveclip offset="27.87446712" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="169683">
+				<waveblock start="0">
+					<simpleblockfile filename="e080306c.au" len="169683" min="-0.541614" max="0.582881" rms="0.065971"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Party Blower Sound Effect" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.995262" pan="0.0" colorindex="0">
+		<waveclip offset="27.87446712" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="169683">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803bc1.au" len="169683" min="-0.461741" max="0.517137" rms="0.066925"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="sprunk Vending machine sound effect" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="2.238721" pan="0.0" colorindex="0">
+		<waveclip offset="28.73172336" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="240768">
+				<waveblock start="0">
+					<simpleblockfile filename="e080a79f.au" len="240768" min="-0.38898" max="0.370398" rms="0.032001"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="sprunk Vending machine sound effect" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="2.238721" pan="0.0" colorindex="0">
+		<waveclip offset="28.73172336" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="240768">
 				<waveblock start="0">
 					<simpleblockfile filename="e080ab36.au" len="240768" min="-0.38898" max="0.370398" rms="0.032001"/>
