@@ -10,7 +10,7 @@ musicAvailable = True;
 arduinoSerialData = serial.Serial('com3', 9600)
 time.sleep(5)
 readData = True
-
+random_num =-1
 
 def playMusicTrack():
     musicAvailable = False;
@@ -29,10 +29,19 @@ def triggerLightSwitchOFF():
     arduinoSerialData.write('2'.encode())
     
 
+
 def resetAll():
     musicAvailable=True
-    flushSerialResp()
+    
+    if (random_num%2==0):
+        #DO SOMETHING
+        arduinoSerialData.write('5'.encode())
+    
+    else:
+        #Do something
+        arduinoSerialData.write('6'.encode())
     time.sleep(5)
+    flushSerialResp()
     print("----END----")
 
 
@@ -40,7 +49,7 @@ def inventionTriggered():
     playMusicTrack();
     triggerLightSwitchON();
     spinnerHandle()
-    time.sleep(22)
+    time.sleep(19)
     triggerLightSwitchOFF()
     resetAll()
     
@@ -49,16 +58,23 @@ def flushSerialResp():
     arduinoSerialData.flushOutput()
 
 def spinnerHandle():
+    
     random_num=random.randint(1,10)
+    
     #start the motor for this long
-    time.sleep(8)
+   
     if (random_num%2==0):
         #open right servo
+        time.sleep(2);
+        arduinoSerialData.write('3'.encode())
         print("TREAT")
+        time.sleep(8)
     else:
         #open left servo
+        time.sleep(2);
+        arduinoSerialData.write('4'.encode())
         print("TRICK")
-
+        time.sleep(8)
 
 
 while (readData):  #Create a loop that continues to read and display the data

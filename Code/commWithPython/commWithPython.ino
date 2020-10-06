@@ -1,11 +1,14 @@
 #include <Servo.h> 
+#include <Stepper.h>
 int trigPin = 11;    // Trigger
 int echoPin = 12;    // Echo
 long duration, cm, inches;
 int servoPin = 9;
 char serialData;
 Servo servo;  
- 
+
+const int stepsPerRevolution = 2048;
+Stepper myStepper = Stepper(stepsPerRevolution, 8, 6, 7, 5);
 int angle = 0;
 
 void setup() {
@@ -16,10 +19,14 @@ void setup() {
   pinMode(echoPin, INPUT);
   servo.attach(servoPin); 
   servo.write(30);
+  myStepper.setSpeed(16);
+  
+  // Begin Serial communication at a baud rate of 9600:
+  Serial.begin(9600);
 }
 
 void loop() {
-   digitalWrite(trigPin, LOW);
+  digitalWrite(trigPin, LOW);
   delayMicroseconds(5);
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
@@ -57,13 +64,22 @@ void loop() {
       } 
     }
     if (serialData=='3'){
-      //deal with Servo 3
+      //deal with Stepper
+      myStepper.step(2848);
+      
     }
     if (serialData=='4'){
-      //deal with Servo 4
+      //deal with Stop Stepper
+      myStepper.step(3248);
     }
     if (serialData=='5'){
       //deal with Servo 5
+       myStepper.step(1248);
+      
+    }
+    if (serialData=='6'){
+      //deal with Servo 6
+       myStepper.step(848);
     }
     
   }
