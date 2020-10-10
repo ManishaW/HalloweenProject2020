@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Halloween Soundtrack_data" version="1.3.0" audacityversion="2.3.0" sel0="0.0000000000" sel1="0.0000000000" vpos="3008" h="0.0000000000" zoom="11.6952900601" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Halloween Soundtrack_data" version="1.3.0" audacityversion="2.3.0" sel0="5.6432974010" sel1="5.6432974010" vpos="1568" h="0.0000000000" zoom="11.6952900601" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="Power Up Sound Effects All Sounds" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.70979592" colorindex="0">
@@ -210,19 +210,8 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Spinning Prize Wheel Sound Effect" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
-		<waveclip offset="0.81770975" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="428761">
-				<waveblock start="0">
-					<simpleblockfile filename="e0803e09.au" len="214493" min="-0.30301" max="0.712898" rms="0.06806"/>
-				</waveblock>
-				<waveblock start="214493">
-					<simpleblockfile filename="e08031bb.au" len="214268" min="-0.307102" max="0.690732" rms="0.085774"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
-		<waveclip offset="14.81521542" colorindex="0">
+	<wavetrack name="Spinning Prize Wheel Sound Effect" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="12.61970789" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="140">
 				<waveblock start="0">
 					<simpleblockfile filename="e080323b.au" len="140" min="0.0" max="0.0" rms="0.0"/>
@@ -230,10 +219,21 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="14.81839002" colorindex="0">
+		<waveclip offset="12.62288249" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="86">
 				<waveblock start="0">
 					<simpleblockfile filename="e0803de3.au" len="86" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="0.81770975" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="352326">
+				<waveblock start="0">
+					<simpleblockfile filename="e0803e09.au" len="214493" min="-0.30301" max="0.712898" rms="0.06806"/>
+				</waveblock>
+				<waveblock start="214493">
+					<simpleblockfile filename="e0803af3.au" len="137833" min="-0.307102" max="0.686368" rms="0.092073"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
@@ -367,7 +367,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="sprunk Vending machine sound effect" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="2.238721" pan="0.0" colorindex="0">
+	<wavetrack name="sprunk Vending machine sound effect" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="2.238721" pan="0.0" colorindex="0">
 		<waveclip offset="28.73172336" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="240768">
 				<waveblock start="0">
@@ -377,7 +377,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="sprunk Vending machine sound effect" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="2.238721" pan="0.0" colorindex="0">
+	<wavetrack name="sprunk Vending machine sound effect" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="2.238721" pan="0.0" colorindex="0">
 		<waveclip offset="28.73172336" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="240768">
 				<waveblock start="0">
