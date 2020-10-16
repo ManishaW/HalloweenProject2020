@@ -26,18 +26,16 @@ def playMusicTrack():
     player.play()
     
 
-def triggerLightSwitchON():
+def pullUpLever():
     print("light on")
     arduinoSerialData.write('1'.encode())
 
-def triggerLightSwitchOFF():
+def pullDownLever():
     print("light off")
     arduinoSerialData.write('2'.encode())
 
 
 def resetAll():
-    
-    
     if (random_num%2==0):
         #DO SOMETHING
         arduinoSerialData.write('5'.encode())
@@ -56,11 +54,13 @@ def resetAll():
 async def inventionTriggered():
     playerBkgd.stop()
     playMusicTrack();
-    triggerLightSwitchON();
-    await p.turn_on()
+    pullUpLever();
     spinnerHandle()
-    time.sleep(19)
-    triggerLightSwitchOFF()
+    await p.turn_on()
+    treatDispense()
+    time.sleep(20)
+
+    pullDownLever()
     await p.turn_off()
     resetAll()
     playerBkgd.play()
@@ -80,26 +80,31 @@ def spinnerHandle():
     random_num=random.randint(0,5)
     print(random_num)
     #start the motor for this long
-   
+    arduinoSerialData.write('4'.encode())
+    time.sleep(9);    
+    
+    
+
+def treatDispense():
+    time.sleep(1)
     if (random_num%2==0):
-        #open right servo
-        time.sleep(2);
-        arduinoSerialData.write('3'.encode())
         print("TREAT")
-        time.sleep(8)
-        releaseTreats();
+        releaseTricks();
     else:
-        #open left servo
-        time.sleep(2);
-        arduinoSerialData.write('4'.encode())
-        print("TRICK")
-        time.sleep(8)
+        # #open left servo
+        #   #open right servo
+        # time.sleep(4);
+        # # arduinoSerialData.write('3'.encode())
+        # print("TREAT")
+        # time.sleep(8)
+        # # releaseTreats();
+        # arduinoSerialData.write('4'.encode())
+        print("TREAT")
         releaseTricks();
 
 
-
 #main
-playerBkgd = vlc.MediaPlayer("D:/Unity Projects/HalloweenProject2020/Audio/Ambience.mp3")
+playerBkgd = vlc.MediaPlayer("D:/Unity Projects/HalloweenProject2020/Audio/Ambience3.mp3")
 playerBkgd.play()
 
 while (readData):  #Create a loop that continues to read and display the data

@@ -9,22 +9,21 @@ Servo servo;
 Servo servo2;
 Servo servo3;
 Servo servoGame;
+int motorPin = 10;
+const int speed =150;
 const int stepsPerRevolution = 2048;
 Stepper myStepper = Stepper(stepsPerRevolution, 8, 6, 7, 5);
 int angle = 0;
-int powerUpStep=0;
-int ticker =0;
-bool allowInteraction=false;
+
+
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin (9600);
   //Define inputs and outputs
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-//  pinMode(0, OUTPUT);
-//  pinMode(1, OUTPUT);
-//  pinMode(2, OUTPUT);
-//  
+  pinMode(motorPin, OUTPUT);
   servo.attach(servoPin); 
   servo2.attach(4);
   servo3.attach(3);
@@ -35,7 +34,6 @@ void setup() {
   
   servoGame.write(30);
   myStepper.setSpeed(16);
-  allowInteraction=true;
   
 
 //  
@@ -59,44 +57,22 @@ void loop() {
   cm = (duration/2) / 29.1;     // Divide by 29.1 or multiply by 0.0343
   inches = (duration/2) / 74; 
 
-
-  if (allowInteraction){
-     if (inches<4){
-    servoGame.write(0);
-  }
-  else if (inches>=4 && inches<=5){
-    servoGame.write(45);
-  }else if (inches>=8 && inches<=12){
-    servoGame.write(135);
-  }else if (inches>12){
-    servoGame.write(180);
-  
-  }
-  if (ticker>=4){
-    servoGame.write(90);
+  if (inches>=4 && inches<=6){
     Serial.println("playSong");
-    allowInteraction=false;
-  }else if ((inches==7||inches==6) && ticker<4){
-    servoGame.write(90);
-    ticker = ticker+1;
-      Serial.println(ticker);
-    delay(200);
-  }else if (inches!=7 && inches!=6){
-    ticker=0;
+    
   }
-  }
- 
+
 
   // put your main code here, to run repeatedly:
   if (Serial.available()>0){ 
     serialData = Serial.read();
-//    Serial.print(serialData);  
     if (serialData=='1'){
       for(angle = 30; angle < 270; angle++)  
       {                                  
         servo.write(angle);               
         delay(1);              
       } 
+      
     }
     if (serialData=='2'){
       for(angle = 270; angle > 30; angle--)  
@@ -104,6 +80,7 @@ void loop() {
         servo.write(angle);               
         delay(1);              
       } 
+      digitalWrite(motorPin, LOW);  
     }
     if (serialData=='3'){
       //deal with Stepper
@@ -132,6 +109,10 @@ void loop() {
         } 
         delay(300);
         servo2.write(30);
+        delay(3000);
+        //start conveyor
+        digitalWrite(motorPin, speed);
+        
     }
      if (serialData=='8'){
       //deal with TREAT Latch
@@ -145,8 +126,8 @@ void loop() {
     }
     if (serialData=='r'){
       Serial.flush();
-      allowInteraction=true;
-      servo.write(0);      
+      servo.write(0);    
+      
     }
     
   }
