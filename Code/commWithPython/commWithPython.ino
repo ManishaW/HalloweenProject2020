@@ -10,7 +10,7 @@ Servo servo2;
 Servo servo3;
 Servo servoGame;
 int motorPin = 10;
-const int speed =150;
+const int speed =180;
 const int stepsPerRevolution = 2048;
 Stepper myStepper = Stepper(stepsPerRevolution, 8, 6, 7, 5);
 int angle = 0;

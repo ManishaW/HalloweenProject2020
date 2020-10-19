@@ -8,7 +8,6 @@ import asyncio
 from kasa import SmartPlug
 from kasa import Discover
 
-
 devices = asyncio.run(Discover.discover())
 p = SmartPlug("192.168.1.29")
 
@@ -105,10 +104,12 @@ def treatDispense():
 
 #main
 playerBkgd = vlc.MediaPlayer("D:/Unity Projects/HalloweenProject2020/Audio/Ambience3.mp3")
-playerBkgd.play()
+# while (True):
+
 
 while (readData):  #Create a loop that continues to read and display the data
     rate(50)#Tell vpython to run this loop 20 times a second
+    if (True): playerBkgd.play()
     if (arduinoSerialData.inWaiting()>0):  #Check to see if a data point is available on the serial port
         myData = arduinoSerialData.readline() #Read the distance measure as a string
         response = myData.decode('utf-8')
