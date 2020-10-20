@@ -9,11 +9,13 @@ from kasa import SmartPlug
 from kasa import Discover
 
 devices = asyncio.run(Discover.discover())
-p = SmartPlug("192.168.1.29")
+print(devices)
+p = SmartPlug("192.168.1.12")
 
 #setup
 musicAvailable = True;
-arduinoSerialData = serial.Serial('com3', 9600)
+# arduinoSerialData = serial.Serial('com3', 9600)
+arduinoSerialData = serial.Serial('com7', 9600)
 time.sleep(5)
 readData = True
 random_num =-1
@@ -21,7 +23,7 @@ random_num =-1
 def playMusicTrack():
     musicAvailable = False;
     print("play music")
-    player = vlc.MediaPlayer("D:/Unity Projects/HalloweenProject2020/Audio/Halloween-Soundtrack-v3.mp3")
+    player = vlc.MediaPlayer("../Audio/Halloween-Soundtrack-v3.mp3")
     player.play()
     
 
@@ -103,7 +105,7 @@ def treatDispense():
 
 
 #main
-playerBkgd = vlc.MediaPlayer("D:/Unity Projects/HalloweenProject2020/Audio/Ambience3.mp3")
+playerBkgd = vlc.MediaPlayer("../Audio/Ambience3.mp3")
 # while (True):
 
 
